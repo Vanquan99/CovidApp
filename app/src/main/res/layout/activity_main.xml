@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main_swipe_refresh_layout">
 
 
     <androidx.core.widget.NestedScrollView
@@ -157,7 +158,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="234,333"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
@@ -168,7 +169,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="+234,333"
+                            android:text=""
                             android:textColor="@color/yellow"
                             android:textSize="16sp"/>
 
@@ -209,7 +210,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="234,333"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
@@ -220,7 +221,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="+234,333"
+                            android:text=""
                             android:textColor="@color/blue"
                             android:textSize="16sp"/>
 
@@ -262,7 +263,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="234,333"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
@@ -273,7 +274,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="+234,333"
+                            android:text=""
                             android:textColor="@color/green"
                             android:textSize="16sp"/>
 
@@ -313,7 +314,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="234,333"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
@@ -324,7 +325,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="+234,333"
+                            android:text=""
                             android:textColor="@color/red"
                             android:textSize="16sp"/>
 
@@ -366,7 +367,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="234,333"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
@@ -377,7 +378,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="+234,333"
+                            android:text=""
                             android:textColor="@color/pink"
                             android:textSize="16sp"/>
 
@@ -417,18 +418,18 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="07:00 PM"
+                            android:text=""
                             android:textColor="@android:color/black"
                             android:textSize="24sp"/>
 
 
                         <TextView
-                            android:id="@+id/activity_date_lastupdate_new"
+                            android:id="@+id/activity_date_lastupdate_date"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="25dp"
                             android:gravity="center"
-                            android:text="19 March 2021"
+                            android:text=""
                             android:textColor="@color/orange"
                             android:textSize="16sp"/>
 
